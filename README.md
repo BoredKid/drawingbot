@@ -1,5 +1,5 @@
 # DrawingBot
-A bot that draw according to your instructions. 
+A bot that draws according to your instructions. 
 
 # Description
 
