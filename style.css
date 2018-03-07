@@ -8,6 +8,14 @@ html,body{
     width: 100%;
 }
 
-#row-feuille{
+#reponse{
+    height: 80px;
+    overflow-y: scroll;
+    padding: 2px;
+    margin-bottom: 0;
+}
 
+#reponse::-webkit-scrollbar{
+    width:0;
+    display: none;
 }

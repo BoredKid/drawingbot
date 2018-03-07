@@ -115,6 +115,7 @@ function analyseResponse(result) {
         let path = [parameters['Directions'], parameters['Couleurs'], parameters['Tailles']];
         pathsTable.push(path);
         draw();
+        $(".jumbotron").css("background-color",parameters['Couleurs']);
     }
     else if (result['metadata']['intentName'] === "Effacer") {
         pathsTable = [];
@@ -125,7 +126,7 @@ function analyseResponse(result) {
 
 // initialisation canvas
 let canvas = document.getElementById('feuille');
-canvas.height = Math.floor(window.innerHeight * (0.9));
+canvas.height = Math.floor(window.innerHeight * (0.8));
 canvas.width = Math.floor(window.innerWidth);
 // initialisation de la taille standard d'un trait
 let standardLineSize = Math.floor(canvas.height / 10);

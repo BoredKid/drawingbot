@@ -65,7 +65,8 @@ function updateRec() {
 }
 
 // création d'une valeur de session
-const id=Math.floor(Math.random()*1000000000);
+const id = Math.floor(Math.random() * 1000000000);
+
 // les fonctions suivantes gèrent l'envois et la reception des informations
 function send() {
     const text = $("#message").val();
@@ -91,14 +92,19 @@ function send() {
 }
 
 let result;
+
 function setResponse(val) {
     console.log(val);
     $("#message").val('');
     result = val['result'];
-    if(result){
+    if (result) {
         console.log(result);
         analyseResponse(result);
-        $("#reponse").text(result['fulfillment']['speech']);
+        let reponse = '';
+        for (msg of result['fulfillment']['messages']) {
+            reponse += msg.speech + '<br>';
+        }
+        $("#reponse").html(reponse);
     }
 }
 
