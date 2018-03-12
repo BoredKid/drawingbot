@@ -1,0 +1,104 @@
+{
+  "id": "c19944bf-4ca3-43b3-8247-3561f583a74b",
+  "name": "DernierTrait",
+  "auto": true,
+  "contexts": [
+    "dernierTrait"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dernierTrait",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ab2041d7-069f-471b-b251-bd50fb0e0394",
+          "required": false,
+          "dataType": "@Couleurs",
+          "name": "Couleurs",
+          "value": "#dernierTrait.Couleurs",
+          "isList": false
+        },
+        {
+          "id": "aed84b95-237c-47e2-b113-cbd9e4bc92f7",
+          "required": false,
+          "dataType": "@Directions",
+          "name": "Directions",
+          "value": "#dernierTrait.Directions",
+          "isList": false
+        },
+        {
+          "id": "bc11abef-15b5-44ab-a94b-c04b683d59a4",
+          "required": false,
+          "dataType": "@Tailles",
+          "name": "Tailles",
+          "value": "#dernierTrait.Tailles",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Le dernier trait tracé est un $Tailles trait $Couleurs dans la direction $Directions"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520245484,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7d047d2f-f938-4934-800c-65ffbc655efc",
+      "data": [
+        {
+          "text": "Dernier trait"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520245484,
+      "isAuto": false
+    },
+    {
+      "id": "dbceb7eb-6580-4d9a-ad00-541c3ec5aeb2",
+      "data": [
+        {
+          "text": "Dernier trait ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520245484,
+      "isAuto": false
+    },
+    {
+      "id": "884d5562-51aa-4785-bccd-774571eefa4c",
+      "data": [
+        {
+          "text": "Quel est le dernier trait que j'ai tracé ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520245484,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

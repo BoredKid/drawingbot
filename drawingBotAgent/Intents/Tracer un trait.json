@@ -1,0 +1,252 @@
+{
+  "id": "5803a800-e403-4161-a573-1a73c9b4de60",
+  "name": "Tracer un trait",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dernierTrait",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a04f96ba-2fda-4e38-8f3d-665fe538b145",
+          "required": true,
+          "dataType": "@Directions",
+          "name": "Directions",
+          "value": "$Directions",
+          "prompts": [
+            "Dans quelle direction voulez-vous tracer ce trait ?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "e9d12015-c5f6-426a-9c50-a77556d0002f",
+          "required": true,
+          "dataType": "@Tailles",
+          "name": "Tailles",
+          "value": "$Tailles",
+          "prompts": [
+            "De quel taille doit-être ce trait ?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "9529147a-c740-4a2d-a3f6-05bb50b1bb90",
+          "required": true,
+          "dataType": "@Couleurs",
+          "name": "Couleurs",
+          "value": "$Couleurs",
+          "prompts": [
+            "De quelle couleur doit-être le trait ?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Voilà un $Tailles trait $Couleurs dans la direction $Directions. Ensuite ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520245283,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "073865ef-22dd-4438-894c-73be9643c01c",
+      "data": [
+        {
+          "text": "Un "
+        },
+        {
+          "text": "petit",
+          "alias": "Tailles",
+          "meta": "@Tailles",
+          "userDefined": false
+        },
+        {
+          "text": " trait "
+        },
+        {
+          "text": "bleu",
+          "alias": "Couleurs",
+          "meta": "@Couleurs",
+          "userDefined": true
+        },
+        {
+          "text": " vers la "
+        },
+        {
+          "text": "gauche",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "47fa2f87-00f7-4cab-9d1d-2f2b126463f0",
+      "data": [
+        {
+          "text": "JE voudrais "
+        },
+        {
+          "text": "un",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " trait "
+        },
+        {
+          "text": "bleu",
+          "alias": "Couleurs",
+          "meta": "@Couleurs",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "grand",
+          "alias": "Tailles",
+          "meta": "@Tailles",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "edb74baf-9bd2-4619-a8f7-2edbcb186a55",
+      "data": [
+        {
+          "text": "Je voudrais "
+        },
+        {
+          "text": "un",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "grand",
+          "alias": "Tailles",
+          "meta": "@Tailles",
+          "userDefined": false
+        },
+        {
+          "text": " trait "
+        },
+        {
+          "text": "bleu",
+          "alias": "Couleurs",
+          "meta": "@Couleurs",
+          "userDefined": false
+        },
+        {
+          "text": " qui va vers le "
+        },
+        {
+          "text": "haut",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520243999,
+      "isAuto": false
+    },
+    {
+      "id": "01e0cf1a-74b7-4ebe-911c-a5fd8152174c",
+      "data": [
+        {
+          "text": "Trait "
+        },
+        {
+          "text": "bleu",
+          "alias": "Couleurs",
+          "meta": "@Couleurs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520243999,
+      "isAuto": false
+    },
+    {
+      "id": "d5d1b8e6-c6ae-4032-a513-f44c36e384eb",
+      "data": [
+        {
+          "text": "Grand",
+          "alias": "Tailles",
+          "meta": "@Tailles",
+          "userDefined": false
+        },
+        {
+          "text": " trait !"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520243999,
+      "isAuto": false
+    },
+    {
+      "id": "17004e79-019f-42fe-bb3f-ed2ddc136068",
+      "data": [
+        {
+          "text": "Je veux "
+        },
+        {
+          "text": "un",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " trait qui monte vers le "
+        },
+        {
+          "text": "haut",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520243999,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "9e64e712-5311-4252-b3b4-7c59d54ece84",
+  "name": "Appréciations",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Je trouve ce dessin très joli",
+            "C'est de toute beauté"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520838696,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "d2389b88-9dfa-4e83-ba55-ceacbc75dd7f",
+      "data": [
+        {
+          "text": "Comment trouves-tu ce dessin ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520838696,
+      "isAuto": false
+    },
+    {
+      "id": "dcbc8c6f-bd28-4211-9c31-b068a3b2b586",
+      "data": [
+        {
+          "text": "C'est beau ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520838696,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

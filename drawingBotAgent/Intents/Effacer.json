@@ -1,0 +1,79 @@
+{
+  "id": "96e606b1-4d27-4626-b0af-29b69b97d20c",
+  "name": "Effacer",
+  "auto": true,
+  "contexts": [
+    "dernierTrait"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dernierTrait",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Allez on efface tout et on recommence !!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520837986,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "81e78992-0d2a-4e34-b9e5-b020d3a0c57d",
+      "data": [
+        {
+          "text": "Effacer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519229454,
+      "isAuto": false
+    },
+    {
+      "id": "2e5470e8-370e-4a5c-8c58-ef666db18595",
+      "data": [
+        {
+          "text": "Efface tout"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519229454,
+      "isAuto": false
+    },
+    {
+      "id": "a729ef42-8f33-4913-9b79-932d96d4729a",
+      "data": [
+        {
+          "text": "Je veux recommencer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519229454,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

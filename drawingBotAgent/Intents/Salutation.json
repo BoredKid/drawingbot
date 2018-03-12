@@ -1,0 +1,79 @@
+{
+  "id": "0f654fde-ca91-448f-adee-619a962d0c43",
+  "name": "Salutation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hello world !",
+            "01001000, 01100101, 01101100, 01101100, 01101111, 00100000, 01010111, 01101111, 01110010, 01101100, 01100100, 00100001",
+            "Bipbip Bip"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Euh pardon ... Bonjour à vous (je ne suis pas une machine, Promis !)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519224855,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "74937496-4282-46d3-999a-b3e0e058224d",
+      "data": [
+        {
+          "text": "Hey !"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519224855,
+      "isAuto": false
+    },
+    {
+      "id": "cccbc743-d86b-4d3c-a97e-ccc923412bd1",
+      "data": [
+        {
+          "text": "Salut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519224855,
+      "isAuto": false
+    },
+    {
+      "id": "f5d5389d-9501-4813-a02c-9875a30c8d55",
+      "data": [
+        {
+          "text": "Bonjour !"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519224855,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
