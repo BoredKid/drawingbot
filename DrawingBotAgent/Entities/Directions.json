@@ -1,0 +1,33 @@
+{
+  "id": "1d968d84-6ecd-4f0e-b8fd-4a3e4b0da0cd",
+  "name": "Directions",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Haut",
+      "synonyms": [
+        "Haut"
+      ]
+    },
+    {
+      "value": "Bas",
+      "synonyms": [
+        "Bas"
+      ]
+    },
+    {
+      "value": "Droite",
+      "synonyms": [
+        "Droite"
+      ]
+    },
+    {
+      "value": "Gauche",
+      "synonyms": [
+        "Gauche"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "389bc635-ea93-417b-aa45-24e6d3503a96",
+  "name": "Tailles",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Petit",
+      "synonyms": [
+        "Petit"
+      ]
+    },
+    {
+      "value": "Moyen",
+      "synonyms": [
+        "Moyen"
+      ]
+    },
+    {
+      "value": "Grand",
+      "synonyms": [
+        "Grand"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

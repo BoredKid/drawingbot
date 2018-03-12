@@ -1,0 +1,50 @@
+{
+  "id": "eb22f1ed-fd77-44eb-b807-ea38ac737c74",
+  "name": "Couleurs",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Blue",
+      "synonyms": [
+        "Blue",
+        "bleu"
+      ]
+    },
+    {
+      "value": "Red",
+      "synonyms": [
+        "Red",
+        "rouge"
+      ]
+    },
+    {
+      "value": "Yellow",
+      "synonyms": [
+        "Yellow",
+        "jaune"
+      ]
+    },
+    {
+      "value": "Orange",
+      "synonyms": [
+        "Orange",
+        "orange"
+      ]
+    },
+    {
+      "value": "Green",
+      "synonyms": [
+        "Green",
+        "vert"
+      ]
+    },
+    {
+      "value": "Transparent",
+      "synonyms": [
+        "Transparent"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}
