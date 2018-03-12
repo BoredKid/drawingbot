@@ -1,15 +1,15 @@
 let pathsTable = [];
 let sizeTable = {
-    "Petit": 0.5,
-    "Moyen": 1,
-    "Grand": 2
+    "petit": 0.5,
+    "moyen": 1,
+    "grand": 2
 };
 
 let directionTable = {
-    "Haut": "up",
-    "Bas": "down",
-    "Droite": "right",
-    "Gauche": "left"
+    "haut": "up",
+    "bas": "down",
+    "droite": "right",
+    "gauche": "left"
 };
 
 function makeUpPath(color, size) {
@@ -112,7 +112,7 @@ function analyseResponse(result) {
         parameters['Tailles'].length > 0
     ) {
         // traçage du trait
-        let path = [parameters['Directions'], parameters['Couleurs'], parameters['Tailles']];
+        let path = [parameters['Directions'].toLowerCase(), parameters['Couleurs'], parameters['Tailles'].toLowerCase()];
         pathsTable.push(path);
         draw();
         $(".jumbotron").css("background-color",parameters['Couleurs']);
