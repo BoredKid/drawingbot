@@ -2,7 +2,7 @@
 * notramment dans la fonction setResponse*/
 
 // insérer votre token personnelle ici pour utiliser votre propre agent
-const accessToken = "47f4f4ab9f4c49ec97709ec057284584";
+const accessToken = "<PERSONAL_TOKEN>";
 const baseUrl = "https://api.api.ai/v1/";
 $(document).ready(function () {
     $("#message").keypress(function (event) {
